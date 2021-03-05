@@ -1,0 +1,27 @@
+﻿<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>三択コンパイラー</h1>
+<table>
+  <tr><th>a</th><th>b</th><th>c</th><th>採用</th></tr>
+  <tr><td>o</td><td>o</td><td>o</td><td><input type="checkbox" id="ch0" /></td></tr>
+  <tr><td>o</td><td>x</td><td>o</td><td><input type="checkbox" id="ch1" /></td></tr>
+  <tr><td>x</td><td>o</td><td>o</td><td><input type="checkbox" id="ch2" /></td></tr>
+  <tr><td>x</td><td>x</td><td>o</td><td><input type="checkbox" id="ch3" /></td></tr>
+  <tr><td>o</td><td>o</td><td>x</td><td><input type="checkbox" id="ch4" /></td></tr>
+  <tr><td>o</td><td>x</td><td>x</td><td><input type="checkbox" id="ch5" /></td></tr>
+  <tr><td>x</td><td>o</td><td>x</td><td><input type="checkbox" id="ch6" /></td></tr>
+  <tr><td>x</td><td>x</td><td>x</td><td><input type="checkbox" id="ch7" /></td></tr>
+</table>
+<input type="button" onclick="run()" value="run"/><br>
+<textarea id="out" rows="15" cols="60"></textarea>
+  </body>
+</html>
+
+
+
