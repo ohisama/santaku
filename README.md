@@ -2,19 +2,29 @@
 
 ## 実行方法
 
-1. ファイル *sudoku_sample_amplify.py* の、`client.token`のコメントアウトを外してアクセストークンを入力する
+1. 以下の、urlを開きます。
 
-2. *sudoku_sample_amplify.py* を実行する
+https://embed.plnkr.co/plunk/2nOl0AYjrVAbLJsK
+
+2.組み合わせを、クリックして、runボタンを押します。
+
+3.生成されたソースコードをコピーします。
+
+4.エディタを開き、ペーストして、*test.py*と実行環境へセーブします。
+
+5.ファイル *test.py* の、`client`のアクセストークンを追記します。
+
+6. *test.py* を実行する
 
 ```shell
-$ python sudoku_sample_amplify.py
+$ python test.py
 ```
 
 ## 実行結果
 
 
 ```
-
+q = [1, 1, 1]
 
 ```
 
